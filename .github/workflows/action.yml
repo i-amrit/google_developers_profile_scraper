@@ -32,8 +32,8 @@ jobs:
               run: bash scripts/scraper.sh
             - name: Commit changes
               run: |
-                  git config user.email "hemant.evolver@gmail.com"
-                  git config user.name "Hemant Sachdeva"
+                  git config user.email "er.amritpal@gmail.com"
+                  git config user.name "Amritpal Singh"
                   git add -A
                   git commit -m "Update badges"
                   git push origin dumps
